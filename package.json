@@ -9,13 +9,14 @@
     "@remotion/cli": "4.0.265",
     "react": "19.0.0",
     "react-dom": "19.0.0",
+    "react-router-dom": "^7.1.5",
     "remotion": "4.0.265",
     "zod": "3.22.3"
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "4.0.265",
-    "prettier": "3.3.3",
-    "eslint": "9.19.0"
+    "eslint": "9.19.0",
+    "prettier": "3.3.3"
   },
   "scripts": {
     "dev": "remotion studio",
