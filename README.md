@@ -1,15 +1,15 @@
 ## Commands
 
-**Install Dependencies**
-
-```console
-npm i
-```
-
 **Start Preview**
 
 ```console
 npm run dev
+```
+
+**Start Preview Web**
+
+```console
+npm run dev:web
 ```
 
 **Render video**
@@ -23,3 +23,4 @@ npx remotion render
 ```console
 npx remotion upgrade
 ```
+
