@@ -15,8 +15,10 @@
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "4.0.265",
+    "@vitejs/plugin-react": "^4.3.4",
     "eslint": "9.19.0",
-    "prettier": "3.3.3"
+    "prettier": "3.3.3",
+    "vite": "^6.1.0"
   },
   "scripts": {
     "dev": "remotion studio",
