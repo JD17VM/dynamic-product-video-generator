@@ -4,7 +4,8 @@ import './assets/styles/estilos_generales.css'
 
 export const RemotionRoot = () => {
   const fps = 30
-  const duracionTotalVideo = 60
+  const segundos = 10
+  const duracionTotalVideo = (fps * segundos) + 1 // 1 frame más para que dure el tiempo exacto
 
   return (
     <>
