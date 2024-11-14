@@ -87,3 +87,98 @@
 .logo_moliplast > img{
     height: 100%;
 }
+
+
+/* ------------------------------- */
+
+.contenedor_2_productos{
+    /*background-color: red;*/
+    width: 75%;
+    height: 90%;
+    z-index: 2;
+}
+
+    .contenedor_2_productos > .producto{
+        box-sizing: border-box;
+        /*background-color: green;*/
+        height: 43%;
+        /*border: 1px solid black;*/
+        display: grid;
+        align-items: start;
+        padding: 0;
+        grid-template-areas:
+        "texto imagen"
+        "precio imagen";
+        column-gap: 10px;
+    }
+
+    .contenedor_2_productos > .producto:first-child{
+        grid-template-areas:
+        "imagen texto"
+        "imagen precio";
+    }
+
+        .contenedor_2_productos > .producto > .contenedor_imagen{
+            /*background-color: blue;*/
+            height: 450px;
+            width: 500px;
+            grid-area: imagen;
+            padding: 0;
+        }
+
+            .contenedor_2_productos > .producto > .contenedor_imagen > img{
+                padding: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+
+        .contenedor_2_productos > .producto > .contenedor_texto{
+            /*background-color: red;*/
+            grid-area: texto;
+            padding: 0;
+            align-self: end;
+
+        }
+
+            .contenedor_2_productos > .producto > .contenedor_texto > h1{
+                padding: 0;
+                font-size: 5rem;
+            }
+
+        .contenedor_2_productos > .producto > .contenedor_precio{
+            grid-area: precio;
+            padding: 0;
+            /*background-color: yellow;*/
+            display: flex;
+            width: 100%;
+        }
+
+            .contenedor_2_productos > .producto > .contenedor_precio > h2{
+                font-size: 7rem;
+                padding: 0;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+        
+
+        
+
+    .contenedor_2_productos > .logo{
+        height: 14%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .contenedor_2_productos > .logo > img{
+            height: 60%;
+        }
+
+        .contenedor_2_productos > .logo > div{
+            width:80%;
+            height: 10px;
+            background-color: rgb(0, 12, 117);
+            position: absolute;
+            z-index: -5;
+        }
